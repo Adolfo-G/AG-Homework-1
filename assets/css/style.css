@@ -1,0 +1,158 @@
+/* resets browser defaults */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* background color of webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* formating of header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* displays menu items in the header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changes the "seo" to the set color without using span */
+.header h1 mark {
+    color: #d9dcd6;
+    background: none;
+}
+
+/* formating of header elements */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+/* places and spaces navigation elements in proper space */
+.header nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* text color of navigation elements */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* sets font of all paragraph elements on page */
+p {
+    font-size: 16px;
+}
+
+/* adds an image with its own parameters */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* main content */
+
+/* float image left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* float image right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* sets width and desplay style of the content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* formats card content and text */
+.card-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets image parameters */
+.card-content img {
+    max-height: 200px;
+}
+
+/*sets h2 header size and spacing  */
+.card-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* aside */
+
+/* background color and formating */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* text color and margin adjustment */
+.benefit-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* header centering */
+.benefit-content h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* image formating */
+.benefit-content img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer */
+
+/* formats text and placement of footer text */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* adjusts footer h4 header text size */
+.footer h4 {
+    font-size: 20px;
+}
